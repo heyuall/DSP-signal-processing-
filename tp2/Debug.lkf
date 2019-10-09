@@ -1,0 +1,6 @@
+-z -c -m"./Debug/tp2.map" -o"./Debug/tp2.out" -w -x -i"C:/CCStudio_v3.1/C6000/rtdx/lib" -i"C:/CCStudio_v3.1/C6000/csl/lib" -i"C:/CCStudio_v3.1/C6000/xdais/lib" -i"C:/CCStudio_v3.1/C6000/bios/lib" -i"C:/CCStudio_v3.1/C6000/cgtools/lib"
+"C:\CCStudio_v3.1\c6000\bios\include\dsk6713cfg.cmd"
+"C:\CCStudio_v3.1\c6000\bios\include\Debug\dsk6713cfg.obj"
+"C:\CCStudio_v3.1\c6000\bios\include\Debug\dsk6713cfg_c.obj"
+"C:\Documents and Settings\userII22\Bureau\TP2_Houssem\Debug\sinegraph.obj"
+"C:\CCStudio_v3.1\c6000\dsk6713\lib\dsk6713bsl.lib"

@@ -1,0 +1,14 @@
+------------------------------  tp2.pjt - Debug  ------------------------------
+[Linking...] "C:\CCStudio_v3.1\c6000\cgtools\bin\cl6x" -@"Debug.lkf"
+<Linking>
+
+undefined                        first referenced
+ symbol                              in file
+---------                        ----------------
+_DSK6713_AIC32_write             C:\Documents and Settings\userII22\Bureau\TP2_Houssem\Debug\sinegraph.obj
+>>   error: symbol referencing errors - './Debug/tp2.out' not built
+
+>> Compilation failure
+
+Build Complete,
+  2 Errors, 0 Warnings, 0 Remarks.

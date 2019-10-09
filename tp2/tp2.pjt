@@ -1,0 +1,41 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectDir="C:\Documents and Settings\userII22\Bureau\TP2_Houssem\tp2\"
+ProjectType=Executable
+CPUFamily=TMS320C67XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="..\..\..\..\..\CCStudio_v3.1\c6000\bios\include\dsk6713.cdb"
+Source="..\..\..\..\..\CCStudio_v3.1\c6000\dsk6713\lib\dsk6713bsl.lib"
+Source="..\sinegraph.c"
+
+[Generated Files]
+Source="..\..\..\..\..\CCStudio_v3.1\c6000\bios\include\dsk6713cfg.cmd"
+Source="..\..\..\..\..\CCStudio_v3.1\c6000\bios\include\dsk6713cfg.s62"
+Source="..\..\..\..\..\CCStudio_v3.1\c6000\bios\include\dsk6713cfg_c.c"
+
+["Compiler" Settings: "Debug"]
+Options=-g -q -fr".\Debug" -i"." -i"$(Install_dir)\c6000\DSK6713\include" -d"CHIP_6713" -ml3 -mv6710 --d"_DEBUG"
+
+["Compiler" Settings: "Release"]
+Options=-o3 -fr"$(Proj_dir)\Release" -mv6700
+
+["Linker" Settings: "Debug"]
+Options=-c -m".\Debug\tp2.map" -o".\Debug\tp2.out" -w -x
+
+["Linker" Settings: "Release"]
+Options=-c -m".\Release\tp2.map" -o".\Release\tp2.out" -w -x
+
+["..\..\..\..\..\CCStudio_v3.1\c6000\bios\include\dsk6713cfg.cmd" Settings: "Debug"]
+LinkOrder=1
+
+["..\..\..\..\..\CCStudio_v3.1\c6000\bios\include\dsk6713cfg.cmd" Settings: "Release"]
+LinkOrder=1
+
